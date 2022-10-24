@@ -15,7 +15,7 @@ function calendarDate(date) {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let day = days[dayIndex];
   return `${day} ${hours}:${minutes}`;
