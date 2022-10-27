@@ -30,8 +30,16 @@ ul {
 
 h1 {
   font-size: 20px;
+  color: #878687;
+  display: block;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
 }
 
+body {
+  font-family: arial, sans-serif;
+}
 h4 {
   font-size: 30px;
 }
@@ -41,10 +49,8 @@ h4 {
 }
 
 .weather-app {
-  max-width: 600px;
-  margin: 0 auto;
-  margin: 30px auto;
-  padding: 20px;
+  padding: 40px;
+  padding: top=20px;
   border: 1px solid #dadde1;
-  border-radius: 10px;
+  border-radius: 5px;
 }
