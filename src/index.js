@@ -35,7 +35,7 @@ function displayWeatherCondition(response) {
 function displayTemperature(response) {
   console.log(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = response.data.main.temp;
+  temperatureElement.un
 }
 
 function searchCity(city) {
