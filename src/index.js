@@ -32,17 +32,10 @@ function displayWeatherCondition(response) {
     response.data.weather[0].main;
 }
 
-function displayTemperature(response) {
-  console.log(response.data.main.temp);
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.un
-}
-
 function searchCity(city) {
   let apiKey = "34d8821390d535d13d1044d3142143f9";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
-  axios.get(apiURL).then(displayTemperature);
 }
 
 function pressSubmit(event) {
