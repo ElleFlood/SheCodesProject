@@ -30,6 +30,8 @@ function displayWeatherCondition(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+  document.querySelector("#temperature").innerHTML = response.data.name;
+  console.log(response.data.main.temp);
 }
 
 function searchCity(city) {
